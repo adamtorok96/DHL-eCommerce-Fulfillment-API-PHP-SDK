@@ -1,0 +1,26 @@
+{
+    "name": "adamtorok96/dhl-ecommerce-fulfillment-api-php-sdk",
+    "description": "PHP SDK for DHL eCommerce Fulfillment API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Torok",
+            "email": "adamtorok96@github.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdamTorok96\\DHL\\Fulfillment": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AdamTorok96\\DHL\\Fulfillment\\Tests": "tests/"
+        }
+    }
+}
