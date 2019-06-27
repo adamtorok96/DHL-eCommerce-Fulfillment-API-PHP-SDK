@@ -62,8 +62,7 @@ class GetItemList implements RequestInterface
     public function getEndpoint(): string
     {
         return sprintf(
-            '%s/%s/%s',
-            '/efulfillment/v1/item/list',
+            '/efulfillment/v1/item/list/%s/%s',
             $this->accountNumber,
             http_build_query($this->getQueries())
         );
