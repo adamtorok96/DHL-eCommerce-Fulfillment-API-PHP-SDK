@@ -159,7 +159,7 @@ class Fulfillment
             ])
         ;
 
-        $data = json_decode($response->getBody()->getContents(), true);
+        $data = json_decode($response->getBody()->getContents(), false);
 
         if( $response->getStatusCode() === self::STATUS_OK ) {
             return $this->authenticationResponse = new AuthenticationResponse(
@@ -193,7 +193,7 @@ class Fulfillment
             )
         ;
 
-        $data = json_decode($response->getBody()->getContents(), true);
+        $data = json_decode($response->getBody()->getContents(), false);
 
         if( $response->getStatusCode() === self::STATUS_OK ) {
             return $data;
