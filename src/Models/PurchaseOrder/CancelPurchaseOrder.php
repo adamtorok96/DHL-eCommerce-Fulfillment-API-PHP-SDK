@@ -2,15 +2,23 @@
 declare(strict_types=1);
 
 
-namespace AdamTorok96\DHL\Fulfillment\Models;
+namespace AdamTorok96\DHL\Fulfillment\Models\PurchaseOrder;
 
 
 class CancelPurchaseOrder
 {
-    /** @var string */
+    /**
+     * DHL assigned account number
+     *
+     * @var string
+     */
     public $AccountNumber;
 
-    /** @var string */
+    /**
+     * The unique id representing a purchase order
+     *
+     * @var string
+     */
     public $OrderNumber;
 
     /**

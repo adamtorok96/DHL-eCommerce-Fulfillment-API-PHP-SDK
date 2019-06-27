@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace AdamTorok96\DHL\Fulfillment\Models;
+namespace AdamTorok96\DHL\Fulfillment\Models\PurchaseOrder;
 
 
 class CostDetails
