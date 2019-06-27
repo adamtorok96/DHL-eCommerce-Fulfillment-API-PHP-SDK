@@ -154,7 +154,7 @@ class Fulfillment
     {
         $response = $this
             ->client
-            ->post($this->getBaseUrl() . self::API_AUTHENTICATION_URL, [
+            ->get($this->getBaseUrl() . self::API_AUTHENTICATION_URL, [
                 RequestOptions::HEADERS => $this->getAuthenticationHeaders()
             ])
         ;
