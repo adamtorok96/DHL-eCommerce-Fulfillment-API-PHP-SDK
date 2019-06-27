@@ -15,12 +15,15 @@
     },
     "autoload": {
         "psr-4": {
-            "AdamTorok96\\DHL\\Fulfillment": "src/"
+            "AdamTorok96\\DHL\\Fulfillment\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AdamTorok96\\DHL\\Fulfillment\\Tests": "tests/"
+            "AdamTorok96\\DHL\\Fulfillment\\Tests\\": "tests/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
     }
 }
