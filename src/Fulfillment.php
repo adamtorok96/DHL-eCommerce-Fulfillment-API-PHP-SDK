@@ -20,14 +20,14 @@ class Fulfillment
      *
      * @var string
      */
-    private const API_BASE_URL = 'https://api.dhlecommerce.com';
+    public const API_BASE_URL = 'https://api.dhlecommerce.com';
 
     /**
      * Sandbox Base URL
      *
      * @var string
      */
-    private const API_BASE_URL_SANDBOX = 'https://api-qa.dhlecommerce.com';
+    public const API_BASE_URL_SANDBOX = 'https://api-qa.dhlecommerce.com';
 
     /**
      * @var string
