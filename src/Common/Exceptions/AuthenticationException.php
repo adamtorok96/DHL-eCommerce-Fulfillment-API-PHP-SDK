@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace AdamTorok96\DHL\Fulfillment\Exceptions;
+namespace AdamTorok96\DHL\Common\Exceptions;
 
 
 use Exception;

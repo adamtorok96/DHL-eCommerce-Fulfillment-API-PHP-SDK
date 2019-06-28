@@ -10,11 +10,11 @@ use AdamTorok96\DHL\Fulfillment\Tests\FeatureTestCase;
 class AuthenticationTest extends FeatureTestCase
 {
     /**
-     * @throws \AdamTorok96\DHL\Fulfillment\Exceptions\AuthenticationException
+     * @throws \AdamTorok96\DHL\Common\Exceptions\AuthenticationException
      */
     public function testAuthentication(): void
     {
-        $response = $this->fulfillment->authenticate();
+        $response = $this->dhl->authenticate();
 
         self::assertNotNull($response->getAccessToken());
         self::assertNotNull($response->getTokenType());

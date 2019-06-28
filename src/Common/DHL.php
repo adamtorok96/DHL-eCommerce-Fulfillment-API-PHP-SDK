@@ -2,18 +2,18 @@
 declare(strict_types=1);
 
 
-namespace AdamTorok96\DHL\Fulfillment;
+namespace AdamTorok96\DHL\Common;
 
 
 use AdamTorok96\DHL\Fulfillment\API\RequestInterface;
-use AdamTorok96\DHL\Fulfillment\Exceptions\AuthenticationException;
-use AdamTorok96\DHL\Fulfillment\Exceptions\RequestFailedException;
+use AdamTorok96\DHL\Common\Exceptions\AuthenticationException;
+use AdamTorok96\DHL\Common\Exceptions\RequestFailedException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\RequestOptions;
 
 
-class Fulfillment
+class DHL
 {
     /**
      * Production Base URL
@@ -65,7 +65,7 @@ class Fulfillment
     private $authenticationResponse;
 
     /**
-     * Fulfillment constructor.
+     * DHL constructor.
      * @param string $client_id
      * @param string $client_secret
      * @param bool $sandbox

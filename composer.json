@@ -15,7 +15,9 @@
     },
     "autoload": {
         "psr-4": {
-            "AdamTorok96\\DHL\\Fulfillment\\": "src/"
+            "AdamTorok96\\DHL\\Common\\": "src/Common/",
+            "AdamTorok96\\DHL\\Fulfillment\\": "src/Fullfillment/",
+            "AdamTorok96\\DHL\\Label\\": "src/Label/"
         }
     },
     "autoload-dev": {
