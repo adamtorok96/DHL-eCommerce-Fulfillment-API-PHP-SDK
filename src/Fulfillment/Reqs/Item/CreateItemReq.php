@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace AdamTorok96\DHL\Fulfillment\Reqs\Item;
 
 
-use AdamTorok96\DHL\Fulfillment\Models\CreateItem;
-use AdamTorok96\DHL\Fulfillment\Reqs\ReqInterface;
+use AdamTorok96\DHL\Fulfillment\Models\Item\CreateItem;
+use AdamTorok96\DHL\Common\Reqs\ReqInterface;
 
 class CreateItemReq implements ReqInterface
 {

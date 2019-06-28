@@ -2,10 +2,10 @@
 declare(strict_types=1);
 
 
-namespace AdamTorok96\DHL\Fulfillment\API\SalesOrder;
+namespace AdamTorok96\DHL\Fulfillment\Requests\SalesOrder;
 
 
-use AdamTorok96\DHL\Fulfillment\API\RequestInterface;
+use AdamTorok96\DHL\Common\Requests\RequestInterface;
 use AdamTorok96\DHL\Fulfillment\Reqs\SalesOrder\CreateSalesOrderReq;
 
 class CreateSalesOrder implements RequestInterface

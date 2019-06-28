@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace AdamTorok96\DHL\Fulfillment\API;
+namespace AdamTorok96\DHL\Common\Requests;
 
 
 interface RequestInterface

@@ -2,10 +2,10 @@
 declare(strict_types=1);
 
 
-namespace AdamTorok96\DHL\Fulfillment\API\Shipment;
+namespace AdamTorok96\DHL\Fulfillment\Requests\Shipment;
 
 
-use AdamTorok96\DHL\Fulfillment\API\RequestInterface;
+use AdamTorok96\DHL\Common\Requests\RequestInterface;
 
 class ShipmentDetails implements RequestInterface
 {

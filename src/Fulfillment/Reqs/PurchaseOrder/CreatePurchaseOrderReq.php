@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace AdamTorok96\DHL\Fulfillment\Reqs\PurchaseOrder;
 
 
-use AdamTorok96\DHL\Fulfillment\Models\CreatePurchaseOrder;
-use AdamTorok96\DHL\Fulfillment\Reqs\ReqInterface;
+use AdamTorok96\DHL\Fulfillment\Models\PurchaseOrder\CreatePurchaseOrder;
+use AdamTorok96\DHL\Common\Reqs\ReqInterface;
 
 class CreatePurchaseOrderReq implements ReqInterface
 {

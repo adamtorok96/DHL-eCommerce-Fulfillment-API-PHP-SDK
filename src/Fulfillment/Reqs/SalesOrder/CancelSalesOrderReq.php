@@ -6,7 +6,7 @@ namespace AdamTorok96\DHL\Fulfillment\Reqs\SalesOrder;
 
 
 use AdamTorok96\DHL\Fulfillment\Models\SalesOrder\CancelSalesOrderLine;
-use AdamTorok96\DHL\Fulfillment\Reqs\ReqInterface;
+use AdamTorok96\DHL\Common\Reqs\ReqInterface;
 
 class CancelSalesOrderReq implements ReqInterface
 {

@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace AdamTorok96\DHL\Fulfillment\Reqs\SalesOrder;
 
 
-use AdamTorok96\DHL\Fulfillment\Models\CreateSalesOrder;
-use AdamTorok96\DHL\Fulfillment\Reqs\ReqInterface;
+use AdamTorok96\DHL\Fulfillment\Models\SalesOrder\CreateSalesOrder;
+use AdamTorok96\DHL\Common\Reqs\ReqInterface;
 
 class CreateSalesOrderReq implements ReqInterface
 {
