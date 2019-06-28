@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace AdamTorok96\DHL\Common;
 
 
-use AdamTorok96\DHL\Fulfillment\API\RequestInterface;
+use AdamTorok96\DHL\Common\Requests\RequestInterface;
 use AdamTorok96\DHL\Common\Exceptions\AuthenticationException;
 use AdamTorok96\DHL\Common\Exceptions\RequestFailedException;
 use GuzzleHttp\Client;
